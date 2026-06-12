@@ -1,18 +1,34 @@
-<resources>
+﻿<resources>
     <string name="app_name">Sensors</string>
-    <string name="location_tracker_title">GPS Sensor Tracker</string>
+    <string name="location_tracker_title">GPS Navigation and Safety Zone</string>
     <string name="location_waiting">Press the button to request location access.</string>
     <string name="location_permission_denied">Location permission is required to read GPS sensor data.</string>
     <string name="location_services_off">Location is disabled. Turn on device location services and try again.</string>
     <string name="location_updates_started">Listening for GPS location updates...</string>
     <string name="start_location_updates">Start location updates</string>
     <string name="refresh_location">Refresh location</string>
-    <string name="latitude_empty">Latitude: --</string>
-    <string name="longitude_empty">Longitude: --</string>
-    <string name="accuracy_empty">Accuracy: --</string>
-    <string name="altitude_empty">Altitude: --</string>
-    <string name="speed_empty">Speed: --</string>
-    <string name="provider_empty">Provider: --</string>
-    <string name="time_empty">Updated: --</string>
-    <string name="location_help">Tip: in the Android Emulator, use Extended Controls > Location to send a GPS position to the app.</string>
+    <string name="map_heading">Current Map and Nearby Places</string>
+    <string name="destination_hint">Enter a destination address or place</string>
+    <string name="navigate_button">Navigate to destination</string>
+    <string name="show_details">Show details</string>
+    <string name="hide_details">Hide details</string>
+    <string name="destination_status_empty">Route status: pending</string>
+    <string name="destination_required">Enter a destination first.</string>
+    <string name="location_required_for_navigation">Current location is needed first. Starting location updates.</string>
+    <string name="geofence_heading">Safe Zone / Geofence</string>
+    <string name="geofence_radius_hint">Safe zone radius in meters</string>
+    <string name="default_geofence_radius">100</string>
+    <string name="set_safe_zone_button">Set safe zone at current location</string>
+    <string name="geofence_not_set">Safe zone is not set yet.</string>
+    <string name="location_required_for_geofence">Current location is needed before setting a safe zone.</string>
+    <string name="latitude_empty">Latitude: pending</string>
+    <string name="longitude_empty">Longitude: pending</string>
+    <string name="accuracy_empty">Accuracy: pending</string>
+    <string name="altitude_empty">Altitude: pending</string>
+    <string name="speed_empty">Speed: pending</string>
+    <string name="provider_empty">Provider: pending</string>
+    <string name="time_empty">Updated: pending</string>
+    <string name="location_help">Tip: in the Android Emulator, use Extended Controls > Location to send a GPS position. The map uses OpenStreetMap and nearby places need internet access.</string>
 </resources>
+
+
